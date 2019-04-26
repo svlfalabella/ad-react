@@ -1,0 +1,30 @@
+.card {
+  position: relative;
+  .card-inner {
+    position: absolute;
+    width: 230px;
+    height: 315px;
+    border: 1px solid $green;
+    border-radius: 8px;
+  }
+
+  .card-outer {
+    position: absolute;
+    width: 195px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: $green;
+    padding: 20px;
+    top: 10px;
+    left: 10px;
+    border-radius: 8px;
+    text-align: center;
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
