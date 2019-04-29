@@ -1,7 +1,9 @@
 @import "_constants";
 @import "base";
+@import "nav";
 @import "titles";
-@import "tech";
+@import "tech-revamped";
+@import "footer";
 
 .title {
   color: red;
@@ -9,4 +11,5 @@
 
 .container {
   padding: 20px;
+  padding-top: 90px;
 }

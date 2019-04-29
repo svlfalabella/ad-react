@@ -1,12 +1,13 @@
 .titles {
   display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
 
   span {
     align-self: center;
     text-indent: -28px;
     font-size: $text-huge;
-    font-family: monospace;
-    font-weight: bold;
     margin-top: 15px;
   }
 }

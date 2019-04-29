@@ -1,0 +1,22 @@
+.footer {
+  margin-top: 80px;
+  background: $blue;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  color: $white;
+  justify-content: space-evenly;
+  align-items: center;
+
+  span:first-child {
+    font-size: $text-medium;
+  }
+  img {
+    width: 300px;
+  }
+
+  span:last-child {
+    align-self: flex-end;
+    font-size: $text-small;
+  }
+}
